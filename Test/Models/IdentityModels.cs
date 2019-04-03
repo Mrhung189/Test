@@ -15,6 +15,7 @@ namespace Test.Models
             var userIdentity = await manager.CreateIdentityAsync(this, DefaultAuthenticationTypes.ApplicationCookie);
             // Add custom user claims here
             return userIdentity;
+            //ghi chu trong code
         }
     }
 
